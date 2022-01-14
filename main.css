@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#row {
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+  }
+
+.banner { 
+    position: fixed; 
+    right: 50%; 
+    top: 30%; 
+    margin-right: -600px; 
+    text-align:center; 
+    width: 120px; 
+}
+
+a {
+    text-decoration: none !important;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    
+}
