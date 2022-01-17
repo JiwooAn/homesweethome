@@ -24,26 +24,13 @@ h2 {
   animation: blink-effect 1500ms step-end infinite;
 }
 
-button {
-  all: unset;
+a {
+  text-decoration: none;
 }
 
 @keyframes blink-effect {
   50% {
       opacity: 0;
-  }
-}
-
-.catch {
-  animation: rotate 2s infinite linear;
-}
-  
-@keyframes rotate {
-  from {
-      transform: rotate(0deg);
-  }
-  to {
-      transform: rotate(360deg);
   }
 }
 
